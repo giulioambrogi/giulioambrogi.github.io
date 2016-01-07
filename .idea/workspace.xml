@@ -39,8 +39,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9204244">
-              <caret line="576" column="13" selection-start-line="576" selection-start-column="13" selection-end-line="576" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.331565">
+              <caret line="107" column="48" selection-start-line="107" selection-start-column="48" selection-end-line="107" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -436,7 +436,7 @@
       <workItem from="1452091277755" duration="1170000" />
       <workItem from="1452093146421" duration="3399000" />
       <workItem from="1452104740537" duration="98000" />
-      <workItem from="1452112878306" duration="4571000" />
+      <workItem from="1452112878306" duration="5285000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1452078547464</created>
@@ -498,11 +498,23 @@
       <option name="project" value="LOCAL" />
       <updated>1452177456456</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Google Analytics">
+      <created>1452177857643</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1452177857644</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Google Analytics">
+      <created>1452188313107</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1452188313107</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11482000" />
+    <option name="totallyTimeSpent" value="12196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="0" />
@@ -553,7 +565,8 @@
     <MESSAGE value="video demo master degree" />
     <MESSAGE value="deleted cv" />
     <MESSAGE value="uploaded cv" />
-    <option name="LAST_COMMIT_MESSAGE" value="uploaded cv" />
+    <MESSAGE value="Google Analytics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Google Analytics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -586,8 +599,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9204244">
-          <caret line="576" column="13" selection-start-line="576" selection-start-column="13" selection-end-line="576" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.331565">
+          <caret line="107" column="48" selection-start-line="107" selection-start-column="48" selection-end-line="107" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
