@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84cd0d89-1c16-4472-b263-8322fa4b971c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/other/cv.pdf" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="giulioambrogi.github.io.iws" />
@@ -129,20 +129,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="other" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="giulioambrogi.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="giulioambrogi.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -162,6 +148,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/other" />
     </key>
   </component>
   <component name="RunManager">
@@ -429,7 +418,7 @@
       <workItem from="1452091277755" duration="1170000" />
       <workItem from="1452093146421" duration="3399000" />
       <workItem from="1452104740537" duration="98000" />
-      <workItem from="1452112878306" duration="3547000" />
+      <workItem from="1452112878306" duration="4143000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1452078547464</created>
@@ -473,11 +462,17 @@
       <option name="project" value="LOCAL" />
       <updated>1452112896800</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="video demo master degree">
+      <created>1452176007065</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1452176007065</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10458000" />
+    <option name="totallyTimeSpent" value="11054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="0" />
@@ -525,7 +520,8 @@
     <MESSAGE value="upload 1" />
     <MESSAGE value="upload 2" />
     <MESSAGE value="upload N" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload N" />
+    <MESSAGE value="video demo master degree" />
+    <option name="LAST_COMMIT_MESSAGE" value="video demo master degree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
