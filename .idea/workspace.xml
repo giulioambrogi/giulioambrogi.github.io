@@ -39,8 +39,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78109455">
-              <caret line="110" column="101" selection-start-line="110" selection-start-column="101" selection-end-line="110" selection-end-column="101" />
+            <state vertical-scroll-proportion="0.33333334">
+              <caret line="305" column="83" selection-start-line="305" selection-start-column="83" selection-end-line="305" selection-end-column="83" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -580,7 +580,7 @@
       <workItem from="1452848119613" duration="7161000" />
       <workItem from="1453109046821" duration="289000" />
       <workItem from="1453545058855" duration="1992000" />
-      <workItem from="1453710806470" duration="770000" />
+      <workItem from="1453710806470" duration="957000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1452078547464</created>
@@ -690,11 +690,17 @@
       <option name="project" value="LOCAL" />
       <updated>1453711202779</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Updated about me section (2)">
+      <created>1453711670755</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1453711670755</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22963000" />
+    <option name="totallyTimeSpent" value="23150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -751,7 +757,8 @@
     <MESSAGE value="rimosso cv vecchio" />
     <MESSAGE value="modifica cv" />
     <MESSAGE value="Updated about me section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated about me section" />
+    <MESSAGE value="Updated about me section (2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated about me section (2)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -849,8 +856,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78109455">
-          <caret line="110" column="101" selection-start-line="110" selection-start-column="101" selection-end-line="110" selection-end-column="101" />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="305" column="83" selection-start-line="305" selection-start-column="83" selection-end-line="305" selection-end-column="83" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
