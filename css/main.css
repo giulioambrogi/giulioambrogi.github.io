@@ -8,7 +8,12 @@
 
 
 }*/
-
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
 #imageDivContainer{
     background: rgba(255,255,255,0.2);
     border-radius:50%;
@@ -85,4 +90,21 @@
 .tech{
     color: darkorange;
 
+}
+.green-highliter{
+    color: greenyellow;
+}
+.linkedin-link{
+    color:white;
+}
+.linkedin-link:hover{
+    color:white;
+    cursor:pointer;
+    text-decoration:none;
+}
+.linkedin-link > i {
+
+    background-color:#008cc9;
+    border:5px solid #008cc9;
+    border-radius: 5px;
 }
