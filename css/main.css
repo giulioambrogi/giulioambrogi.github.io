@@ -88,8 +88,10 @@ a:hover{
     list-type: circle;
 }
 .tech{
-    color: darkorange;
-
+    color: #ff8c00;
+}
+.tech2{
+    color: #00bfff;
 }
 .green-highliter{
     color: greenyellow;
@@ -107,4 +109,15 @@ a:hover{
     background-color:#008cc9;
     border:5px solid #008cc9;
     border-radius: 5px;
+}
+.simple-portfolio-box{
+    height:100%;
+    background-color: #7fffd4;
+    height:230px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.live-link{
+    color: #ff8c00;
 }
