@@ -4,6 +4,7 @@
     <list default="true" id="84cd0d89-1c16-4472-b263-8322fa4b971c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="giulioambrogi.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5">
-              <caret line="115" column="17" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
+            <state vertical-scroll-proportion="-2.6470587">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.9411764">
-              <caret line="535" column="39" selection-start-line="535" selection-start-column="39" selection-end-line="535" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.45833334">
+              <caret line="297" column="81" selection-start-line="297" selection-start-column="81" selection-end-line="297" selection-end-column="81" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#p#3;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -101,9 +102,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/creative.css" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -716,7 +717,7 @@
       <workItem from="1465739216820" duration="2737000" />
       <workItem from="1465753867563" duration="2985000" />
       <workItem from="1466934130631" duration="2514000" />
-      <workItem from="1467733658805" duration="3461000" />
+      <workItem from="1467733658805" duration="5258000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1452078547464</created>
@@ -904,11 +905,17 @@
       <option name="project" value="LOCAL" />
       <updated>1467755234225</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="fixed padding problem on portfolio boxes">
+      <created>1467755347645</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1467755347645</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45189000" />
+    <option name="totallyTimeSpent" value="46986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="0" />
@@ -975,7 +982,8 @@
     <MESSAGE value="Changed images and some styling" />
     <MESSAGE value="Removed mrs added recent projects" />
     <MESSAGE value="added images&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="added images&#10;" />
+    <MESSAGE value="fixed padding problem on portfolio boxes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed padding problem on portfolio boxes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1285,23 +1293,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6470587">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9411764">
-          <caret line="535" column="39" selection-start-line="535" selection-start-column="39" selection-end-line="535" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.45833334">
+          <caret line="297" column="81" selection-start-line="297" selection-start-column="81" selection-end-line="297" selection-end-column="81" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#p#3;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5">
-          <caret line="115" column="17" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
