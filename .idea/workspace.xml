@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84cd0d89-1c16-4472-b263-8322fa4b971c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/alto1_medium.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/alto2_medium.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/side2_medium.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/src/scss/application.scss" afterPath="$PROJECT_DIR$/public/assets/src/scss/application.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/dist/css/application.css" afterPath="$PROJECT_DIR$/public/assets/dist/css/application.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/src/scss/legacy/creative.scss" afterPath="$PROJECT_DIR$/public/assets/src/scss/legacy/creative.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/src/scss/legacy/main.scss" afterPath="$PROJECT_DIR$/public/assets/src/scss/legacy/main.scss" />
     </list>
     <ignored path="giulioambrogi.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-1.5686275">
-              <caret line="481" column="124" selection-start-line="481" selection-start-column="124" selection-end-line="481" selection-end-column="124" />
+              <caret line="381" column="69" selection-start-line="381" selection-start-column="66" selection-end-line="381" selection-end-column="69" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#p#3;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -44,17 +48,17 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/src/scss/legacy/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.4705882">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            <state vertical-scroll-proportion="-1.5686275">
+              <caret line="76" column="19" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/src/scss/application.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16853933">
+            <state vertical-scroll-proportion="-1.875">
               <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
               <folding />
             </state>
@@ -91,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="creative.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="creative.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/assets/src/scss/legacy/creative.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.235294">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.39583334">
+              <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -135,11 +139,11 @@
         <option value="$PROJECT_DIR$/public/assets/src/scss/legacy/animate.min.scss" />
         <option value="$PROJECT_DIR$/public/assets/src/scss/legacy/bootstrap.scss" />
         <option value="$PROJECT_DIR$/css/creative.css" />
+        <option value="$PROJECT_DIR$/public/assets/dist/css/application.css" />
+        <option value="$PROJECT_DIR$/public/assets/src/scss/application.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/public/assets/src/scss/legacy/main.scss" />
-        <option value="$PROJECT_DIR$/public/assets/dist/css/application.css" />
         <option value="$PROJECT_DIR$/public/assets/src/scss/legacy/creative.scss" />
-        <option value="$PROJECT_DIR$/public/assets/src/scss/application.scss" />
       </list>
     </option>
   </component>
@@ -365,6 +369,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="legacy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="giulioambrogi.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="giulioambrogi.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -857,7 +875,7 @@
       <workItem from="1466934130631" duration="2514000" />
       <workItem from="1467733658805" duration="5763000" />
       <workItem from="1470155483454" duration="15000" />
-      <workItem from="1473025893809" duration="6802000" />
+      <workItem from="1473025893809" duration="7668000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1452078547464</created>
@@ -1075,15 +1093,21 @@
       <option name="project" value="LOCAL" />
       <updated>1473031574946</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="fixed main.scss&#10;&#10;">
+      <created>1473112757978</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1473112757978</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54308000" />
+    <option name="totallyTimeSpent" value="55174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1123,8 +1147,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upload N" />
-    <MESSAGE value="video demo master degree" />
     <MESSAGE value="deleted cv" />
     <MESSAGE value="uploaded cv" />
     <MESSAGE value="Google Analytics" />
@@ -1148,7 +1170,9 @@
     <MESSAGE value="Refactoring + bug fixing on portfolio boxes" />
     <MESSAGE value="upload application.css dist" />
     <MESSAGE value="+images" />
-    <option name="LAST_COMMIT_MESSAGE" value="+images" />
+    <MESSAGE value="fixed main.scss&#10;&#10;" />
+    <MESSAGE value="adjusted image quality" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusted image quality" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1505,18 +1529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5686275">
-          <caret line="481" column="124" selection-start-line="481" selection-start-column="124" selection-end-line="481" selection-end-column="124" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#3;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/dist/css/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.3846154">
@@ -1533,22 +1545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/src/scss/legacy/creative.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.235294">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/src/scss/legacy/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4705882">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/src/scss/legacy/bootstrap.min.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -1559,8 +1555,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/src/scss/application.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16853933">
+        <state vertical-scroll-proportion="-1.875">
           <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5686275">
+          <caret line="381" column="69" selection-start-line="381" selection-start-column="66" selection-end-line="381" selection-end-column="69" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#p#3;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/src/scss/legacy/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5686275">
+          <caret line="76" column="19" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/src/scss/legacy/creative.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39583334">
+          <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
           <folding />
         </state>
       </provider>
