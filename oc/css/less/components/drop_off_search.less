@@ -3,10 +3,18 @@
 	.post-code{
 		input, .btn{
 			width:44%;
+			min-width: 0px;
+
+			.respond-to('medium',{
+				width: 100%;
+			});
 		}
 		input{
 			margin-right: 12%;
 			float:left;
+			.respond-to('medium',{
+				margin-bottom: 1.5rem;
+			});
 		}
 	}
 

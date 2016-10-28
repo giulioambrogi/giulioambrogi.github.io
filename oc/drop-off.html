@@ -63,7 +63,7 @@
 				<section class="lead">
 					<h1>Request a repair</h1>
 				</section>
-				<div class="steps-container details">
+				<div class="steps-container your-repair">
 					<nav class="steps">
 						<ul>
 							<li>
@@ -74,8 +74,8 @@
 								<span class="step">2</span>
 								<span class="label">Report form</span>
 							</li>
-							<li>
-								<span class="step"  class="active">3</span>
+							<li class="active">
+								<span class="step">3</span>
 								<span class="label">You repair</span>
 							</li>
 							<li>
@@ -107,10 +107,10 @@
 									<h3 class="alt">Search for drop-off points by post code. </h3>
 									<div class="form-line post-code">
 										<input type="text">
-										<a class="btn btn-primary">Search</a>
+										<a class="btn btn-primary" data-widget="toggle" data-target="do-search-result">Search</a>
 									</div>
 
-									<div class="result">
+									<div id="do-search-result" class="result hidden">
 										<p>Showing nearest drop-off locations to "<span class="entered-postcode">SE11 4EE</span>"</p>
 										<h3 class="alt">Select your preferred drop-off point</h3>
 										<div class="map-container">Map placeholder</div>
@@ -149,12 +149,12 @@
 								Wimbledon<br/>
 								London<br/>
 								SW19 4JS</p>
-								<p><a href="#" data-widget="updateaddress">Update returns address</a></p>
-								<div id="update-address" class="hidden">
+								<p><a href="#"  data-widget="toggle" data-target="update-returns-address">Update returns address</a></p>
+								<div id="update-returns-address" class="hidden">
 									<div class="findAddressBox">
 										<div class="form-line">
 											<label class="">Returns address</label>
-											<input type="text" name="ccorr_captureSearch" id="corr_captureSearch" value="" placeholder="Start typing your address" autocomplete="off">
+											<input type="text" name="ccorr_captureSearch" id="corr_captureSearch" value="" placeholder="Start typing your returns address" autocomplete="off">
 
 											<p class="errorMes hidden">Please enter address</p>
 										</div>
