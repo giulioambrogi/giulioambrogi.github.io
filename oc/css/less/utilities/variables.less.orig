@@ -1,0 +1,70 @@
+/* colours */
+
+@base: #333333; 					/* Base Font colour */
+@blue: #00aeef; 					/* D&G main used for font and CTA's */
+@lighterBlue: #60c6ec;				/* Used mainly for hover states */
+@white: #fff; 						/* Used mainly for font and CTA's */
+@lightGrey: #d3d3d3;				/* Secondary block colour used for BG's */
+@lighterGrey: #f7f7f8;
+@darkGrey: #a1a1a1;
+@green: #63AA00;
+@red: #cc0000;
+<<<<<<< HEAD
+@keyline: #e6e6e6;
+@black: #000;						/* Used on underlay */
+=======
+>>>>>>> giulio
+
+
+/* Theme colours */
+
+@primary:  @blue;
+@primary--hover: @lighterBlue;
+@secondary: @white;
+@tertiory: @green;
+@block: @darkGrey;
+@linkColor: @blue;
+@warningColor: @red;
+@successText: @green;
+@inputBorder: @lightGrey;
+@inputBorder--inactive: @darkGrey;
+@borderColor:  @lightGrey;
+
+/* Typography */
+
+@baseFontFamily: arial,sans-serif;
+@baseFontSize: 1.4rem;
+@baseLineHeight: 1.4;
+@vagLightFamily: "VAG Rounded W01 Light",sans-serif;
+@vagBoldFamily: "VAG Rounded W01 Bold",sans-serif;
+
+@fontBase: @baseFontSize;
+@fontSmall: 1.8rem;
+@fontMedium: 2rem;
+@fontLarge: 2.4rem;
+@fontLarger: 2.8rem;
+
+
+/* Components */
+
+@btnPrimaryBackground: @white;
+@btnBackgroundHighlight: @blue;
+@space: 2rem;
+@mtb: 20px 0 20px 0;
+
+/* Breakpoints
+Usually the split between mobile view and desktop view happens at 'large'
+*/
+@breakpoints:
+  "xxxxlarge" 1400px,
+  "xxxlarge" 1280px,
+  "xxlarge" 1120px,
+  "xlarge" 980px,
+  "large" 900px,
+  "medium" 767px,
+  "small" 600px,
+  "xsmall" 480px,
+  "xxsmall" 380px,
+  "xxxsmall" 340px
+;
+

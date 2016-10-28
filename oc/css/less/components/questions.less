@@ -1,0 +1,25 @@
+/* Questions */
+
+.question {
+	.border;
+	box-sizing: border-box;
+	padding: 4rem;
+
+	h1 {
+		font-size: @fontMedium;
+		margin-top: 0;
+	}
+
+	h2 {
+		font-size: @fontLarger;
+		margin-top: 0;
+	}
+}
+
+/* Responsive */
+
+.respond-to('medium',{
+	.question {
+		padding: 2rem;
+	}
+});

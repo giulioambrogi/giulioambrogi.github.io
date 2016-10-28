@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<html xmlns:wairole="http://www.w3.org/2005/01/wai-rdf/GUIRoleTaxonomy#" xmlns:waistate="http://www.w3.org/2005/07/aaa" lang="" xml:lang="">
+	<head>
+		<title>Repair Claims Hub - D&G Online Claims</title>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/de222802-cb61-4325-837d-23832cbb638a.css"/>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/claims.css">
+	</head>
+	<body>
+		<div id="skiplinks" class="visuallyhidden">
+			<h2>Accessibility Links</h2>
+			<ul>
+				<li>
+					<a href="#main-content">
+						Skip to main content
+					</a>
+				</li>
+			</ul>
+		</div>
+		<header role="banner" class="pg-header">
+			<div class="container">
+				<nav role="navigation" class="navbar" data-widget="menu">
+					<div class="logo">
+						<a href="#">
+							<img alt="Domestic & General" src="images/claims-logo.png"/>
+						</a>
+					</div>
+					<div class="title">
+						<span>Repair & Claims Hub</span>
+					</div>
+					<ul>
+						<li class="selected">
+							<a href="#" >Book a repair</a>
+						</li>
+						<li>
+							<a href="#">Track a repair</a>
+						</li>
+					</ul>
+					<div class="dropdown" tabindex="0">
+						<a href="#">
+							<span class="icon icon-user-secondary"></span>
+							<span class="visuallyhidden">My Account</span>
+						</a>
+						<div class="content" aria-expanded="false" aria-hidden="true">
+							<h3>My Account</h3>
+							<ul>
+								<!--<li><a href="#manageaccount">Manage My Account</a></li>-->
+								<li><a href="#">My Plans</a>
+								<li><a href="#">Personal details</a>
+								<li><a href="#logout">Log out</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<main role="main" id="main-content">
+			<div class="container">
+				<section class="lead">
+					<p>Hi &#60;customer name&#62;,</p>
+					<p>You can request a repair below, just choose a plan to get started. If you can't see your plan, you can import it at the bottom of this page.</p>
+				</section>
+				<h2 class="">Your plans</h2>
+				<div class="">
+					<table class="hub-tbl rsp-tbl">
+						<thead>
+							<th>Product</th>
+							<th>Plan number</th>
+							<th>Repair Status</th>
+							<th>Title TBC</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Toshiba LCD Television</td>
+								<td data-label="Plan number: ">J400009286</td>
+								<td>
+									<div class="icon-w-label">
+										<span class="icon icon-error"></span>
+										<span>Form incomplete</span>
+									</div>
+								</td>
+								<td>
+									<button class="btn btn-secondary">Continue form</button>
+								</td>
+							</tr>
+							<tr>
+								<td>Samsung Television</td>
+								<td data-label="Plan number: ">J400009286</td>
+								<td>
+									<div class="icon-w-label">
+										<span class="icon icon-error"></span>
+										<span>Booking inclomplete</span>
+									</div>
+								</td>
+								<td>
+									<button class="btn btn-secondary">Continue booking</button>
+								</td>
+							</tr>
+							<tr>
+								<td>Panasonic Television</td>
+								<td data-label="Plan number: ">J400009286</td>
+								<td>
+									<div class="icon-w-label">
+										<span class="icon icon-tick-box"></span>
+										<span>In progress</span>
+									</div>
+								</td>
+								<td>
+									<button class="btn btn-secondary">Go to tracker</button>
+								</td>
+							</tr>
+							<tr>
+								<td>Hitachi 4k Television</td>
+								<td data-label="Plan number: ">J400009286</td>
+								<td></td>
+								<td>
+									<button class="btn btn-primary">Request a repair</button>
+								</td>
+							</tr>
+							<tr class="stripe">
+								<td>Multiplan</td>
+								<td data-label="Plan number: ">J400009286</td>
+								<td></td>
+								<td>
+									<a class="btn btn-x-border toggle-icon" data-widget="toggle" data-target="mp-toggle" href="">See all products <span class="icon"></span></a>
+								</td>
+							</tr>
+						</tbody>
+						<tbody class="mp-items hidden" id="mp-toggle">
+							<tr>
+								<td>Television Brand unknown</td>
+								<td data-label="Plan number: ">J400009286</td>
+								<td></td>
+								<td>
+									<button class="btn btn-primary">Request a repair</button>
+								</td>
+							</tr>
+							<tr>
+								<td>Hotpoint Tumble Dryer</td>
+								<td data-label="Plan number: ">J400009286</td>
+								<td></td>
+								<td>
+									<button class="btn btn-primary">Request a repair</button>
+								</td>
+							</tr>
+							<tr>
+								<td>Toshiba LCD Television</td>
+								<td data-label="Plan number: ">J400009286</td>
+								<td></td>
+								<td>
+									<button class="btn btn-primary">Request a repair</button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="row">
+					<div class="columns seven single-column">
+						<h2>Import a plan</h2>
+						<p>If you can't see your plan above, then simply enter your plan number to import your plan into your online account. You will then be able to request a repair, make a claim, or track an existing claim.</p>
+						<div class="">
+							<div class="form-line">
+								<div>
+									<label for="planNo">Plan number</label>
+									<input type="text" name="planNo" placeholder="e.g J488888857">
+									<p class="errorMes hidden">Please enter plan number</p>
+								</div>
+							</div>
+							<div class="form-line">
+								<button class="btn btn-primary">Import</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+		</footer>
+		<script src="javascript/claims.min.js" type="text/javascript">
+		</script>
+	</body>
+</html>

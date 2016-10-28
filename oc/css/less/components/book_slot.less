@@ -1,0 +1,59 @@
+/* Book a slot */
+
+.book-slot{
+
+	border: 1px solid @borderColor;
+	width: 100%;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	      box-sizing: border-box;
+
+	.heading{
+		display: block;
+		margin-bottom: 1rem;
+	}
+	ul{
+		margin: 0;
+	}
+	.columns{
+		padding: 2rem;
+		.respond-to('xxlarge',{
+			padding: 1rem 0 1rem 1rem;
+		});
+	}
+
+	.booked{
+		border-top: 1px solid @borderColor;
+		background: @lighterGrey;
+		position: relative;
+		font-size: 1.8rem;
+
+		.respond-to('large',{
+			font-size: 1.4rem;
+		});
+
+
+		.icon{
+			display: inline-block;
+			margin: 0 1.5rem -7px 0;
+		}
+
+	}
+
+	.field-grp li label{
+		padding-right: 0.5rem;
+	}
+}
+
+.respond-to('medium', {
+	.book-slot{
+		.columns.six{
+			width: 50%;
+			float: left;
+			margin-left: 0;
+		}
+	}
+});
+
+

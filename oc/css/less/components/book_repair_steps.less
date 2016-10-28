@@ -1,0 +1,61 @@
+.steps-container{
+
+	&.details{
+		.mobile-number{
+			margin-bottom:1.5rem;
+		}
+		.respond-to('medium',{
+			li:not(:first-child){
+				.step{
+					float:right;
+					margin:0;
+				}
+			}
+		});
+			
+	}
+
+	&.repair-form{
+		.respond-to('medium',{
+			li:not(.active):not(:first-child){
+				.step{
+					float:right;
+					margin:0;
+				}
+			}
+		});
+	}
+
+	&.your-repair{
+		.book-slot, #select-date{
+			margin-bottom: 3.0rem;
+		}
+		
+
+
+		.respond-to('medium',{
+			li:nth-child(4){
+				.step{
+					float:right;
+					margin:0;
+				}
+			}
+		});
+
+
+
+	}
+
+	&.confirmation{
+		.booking-details-tbl{
+			th{
+				font-size: larger;
+			}
+			th,td{
+				border:none;
+			}
+		}
+
+	}
+
+}

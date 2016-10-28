@@ -1,0 +1,154 @@
+@smallRoundelSize: 2.8rem;
+@largeRoundelSize: 3.3rem;
+@defaultRoundelSize: 3.8rem;
+
+.steps-container{
+
+	/* nav */
+	.steps {
+		 color: @lightGrey;
+		.step {
+		    background: @secondary;
+		    border: 1px solid @lightGrey;
+		    border-radius: 100%;
+			display: inline-block;
+		   	float: left;
+		    line-height: 180%;
+		   	margin-right: 1.5rem;
+		    overflow: hidden;
+		   	text-align: center;
+		    width: @defaultRoundelSize;
+		    height: @defaultRoundelSize;
+		    line-height: @defaultRoundelSize;
+
+
+		    .respond-to('xxlarge',{
+		    	margin-right: 0.8rem;
+		    	width: @largeRoundelSize;
+		    	height: @largeRoundelSize;
+		    	line-height: @largeRoundelSize;
+		    });
+
+		    .respond-to('large',{
+		    	margin-right: 0.8rem;
+		    	width: @smallRoundelSize;
+		    	height: @smallRoundelSize;
+		    	line-height: @smallRoundelSize;
+		    });
+
+
+		}
+
+		.label {
+			color: inherit;
+			display: inline-block;
+			height: 2.8rem;
+		    line-height: 200%;
+		}
+
+		.active {
+	    	/*border-bottom: 4px solid;*/
+			color: @primary;
+
+	    	.step {
+				background: @primary;
+				border-color: @primary;
+				color: @secondary;
+	    	}
+		}
+
+		ul {
+			display: flex;
+			font-family: @vagLightFamily;
+			font-size: @fontMedium;
+			margin-bottom: 0;
+
+			.respond-to('xxlarge',{
+		    	font-size: 1.8rem;
+		    });
+
+
+
+		    .respond-to('large',{
+		    	font-size: 1.6rem; /*added extra fonts otherwise it breaks in two lines*/
+
+		    });
+
+
+
+
+			li {
+				padding-bottom: 2rem;
+				/*padding-left:1.5rem;*/
+			    width: 25%;
+
+			   	.respond-to('xlarge',{
+			   		padding-bottom: 1.5rem;
+			   	});
+				.respond-to('medium',{
+					/*padding-left:1.0rem;*/
+					width: 15%;
+					&.active{
+						width: 90%;
+					}
+					&:not(.active){
+						.step{
+							display: block;
+							}
+						.label{
+							display: none;
+						}
+
+
+					}
+
+					&:last-of-type{
+
+						&:not(.active){
+							.step{
+								float: right;
+								margin-right: 0;
+							}
+						}
+					}
+
+
+
+				});
+
+				.respond-to('xsmall',{
+					&.active{
+						width: 72%;
+					}
+				});
+
+
+			}
+		}
+	}
+
+	/* body*/
+
+	.steps-body{
+		border: 1px solid @lightGrey;
+		padding: 3rem;
+		overflow: auto;
+		margin-bottom: 2.5rem;
+		h2:first-of-type{
+			margin-top:0;
+		}
+		.respond-to('large',{
+			padding: 2.5rem;
+		});
+		.respond-to('medium',{
+			padding: 1.2rem;
+		});
+
+		.prod-tbl{
+			.respond-to('medium',{
+				width: 100%;
+			});
+		}
+	}
+}
+

@@ -1,0 +1,49 @@
+.drop-off-search{
+
+	.post-code{
+		input, .btn{
+			width:44%;
+		}
+		input{
+			margin-right: 12%;
+			float:left;
+		}
+	}
+
+	.result{
+		margin-top: 2rem;
+	}
+
+	.map-container{
+		border: 1px solid @lightGrey;
+		border-bottom: 0px;
+		height: 200px;
+		width: 100%;
+	}
+
+	.result-list{
+		width: 100%;
+		border: 1px solid @lightGrey;
+		height: 250px;
+		overflow: auto;
+		margin: 0;
+
+		li{
+
+			padding: 1.5rem 1.5rem 1.5rem 5rem;
+			&:not(:last-of-type){
+				border-bottom: 1px solid @lightGrey;
+			}
+
+
+			.name{
+				display: block;
+			}
+			.address{
+				color: @darkGrey;
+			}
+
+		}
+
+	}
+}
