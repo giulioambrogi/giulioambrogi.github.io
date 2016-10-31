@@ -1039,7 +1039,7 @@ Checkbox - TODO: integrate this code and radio buttons one in order to avoid cod
   background-color: #00aeef;
 }
 .date-checkbox input[type=checkbox]:checked ~ .check::before {
-  background: url('/images/check-white.png') no-repeat;
+  background: url('../../images/check-white.png') no-repeat;
 }
 .date-checkbox input[type=checkbox]:hover {
   border: 1px solid #00aeef;

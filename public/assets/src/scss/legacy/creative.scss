@@ -4,10 +4,6 @@ body {
     height: 100%;
 }
 
-@font-face {
-    font-family: 'Roboto-Regular'; /*a name to be used later*/
-    src: url('../fonts/roboto/Roboto-Regular.ttf'); /*URL to font*/
-}
 
 body {
     /*font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;*/
@@ -41,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto-Regular'; /*a name to be used later*/
+
 }
 
 p {
@@ -406,9 +402,9 @@ fieldset[disabled] .btn-default.active {
     background-color: transparent; /*bottone grande*/
     border: 2px solid white;
 
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    -webkit-transition: all .55s;
+    -moz-transition: all .55s;
+    transition: all .55s;
 }
 
 .btn-welcome:hover, .btn-welcome.focus{
@@ -469,10 +465,10 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn {
-    border-radius: 300px;
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
+    border-radius: 0px;
 }
 
 .btn-xl {

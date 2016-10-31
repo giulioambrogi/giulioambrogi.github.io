@@ -1,0 +1,7 @@
+@mixin font-family($font-cut, $important: false) {
+  @if $important == false {
+    font-family: map-get($font-families, $font-cut);
+  } @else {
+    font-family: map-get($font-families, $font-cut) !important;
+  }
+}

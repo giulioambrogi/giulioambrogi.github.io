@@ -21,6 +21,7 @@ var fs                 = require("fs"),
     cheerio            = require('gulp-cheerio'),
     $                  = require('jquery'),
     inject             = require('gulp-inject'),
+    webserver = require('gulp-webserver'),
     sources            = {
       scripts: {
         path: './public/assets/src/javascripts',
@@ -76,13 +77,18 @@ gulp.task('styles', function() {
     .pipe(size());
 });
 
-
+gulp.task('webserver', function() {
+  gulp.src('./')
+    .pipe(webserver({
+      fallback: 'index.html'
+    }));
+});
 
 gulp.task('watch', function() {
   gulp.watch('./public/assets/src/javascripts/**/*', ['scripts-dev']);
   gulp.watch('./public/assets/src/scss/**/*.scss', ['styles']);
 });
 
-gulp.task('default', ['watch']);
+gulp.task('default', ['webserver', 'watch']);
 
 
