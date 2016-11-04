@@ -22,6 +22,8 @@ var fs                 = require("fs"),
     $                  = require('jquery'),
     inject             = require('gulp-inject'),
     webserver = require('gulp-webserver'),
+    handlebars = require('gulp-compile-handlebars'),
+    htmlmin = require('gulp-htmlmin'),
     sources            = {
       scripts: {
         path: './public/assets/src/javascripts',
@@ -51,6 +53,13 @@ gulp.task('scripts', function() {
     .pipe(uglify())
     .pipe(gulp.dest(sources.scripts.dist_path));
 });
+
+gulp.task('minify-html', function() {
+  return gulp.src('./index.html')
+    .pipe(htmlmin({collapseWhitespace: true, removeComments: true}))
+    .pipe(gulp.dest('./'));
+});
+
 
 gulp.task('scripts-dev', function() {
   var b = browserify({
@@ -84,9 +93,32 @@ gulp.task('webserver', function() {
     }));
 });
 
+
+gulp.task('hbs', function () {
+    var templateData = require('./public/assets/src/data/global.json'),
+
+    options = {
+        ignorePartials: true,
+        partials : {
+        },
+        batch : ['./public/assets/src/views/partials'],
+        helpers : {
+            capitals : function(str){
+                return str.toUpperCase();
+            }
+        }
+    }
+
+    return gulp.src('./public/assets/src/views/index.hbs')
+        .pipe(handlebars(templateData, options))
+        .pipe(rename('index.html'))
+        .pipe(gulp.dest('./'));
+});
+
 gulp.task('watch', function() {
   gulp.watch('./public/assets/src/javascripts/**/*', ['scripts-dev']);
   gulp.watch('./public/assets/src/scss/**/*.scss', ['styles']);
+  gulp.watch('./public/assets/src/views/**/*.hbs', ['hbs']);
 });
 
 gulp.task('default', ['webserver', 'watch']);

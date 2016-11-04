@@ -12,7 +12,7 @@ module.exports = (function(){
         callback: function(){
           $(".header-content h3").next(".typed-cursor").hide();
              $(".header-content p").typed({
-              strings: ["I am Giulio, full stack developer based in London."],
+              strings: ["I am Giulio, web developer based in London."],
               typeSpeed: typed_speed,
               callback: function(){
                 $('.header-content .btn.btn-welcome').toggleClass('opacity-hidden');

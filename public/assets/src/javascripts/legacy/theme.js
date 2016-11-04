@@ -46,18 +46,10 @@
     new WOW().init();
 
 
-    //ambrulio
-
-    $("#testdiv").click(function(data){
-        console.dir(data);
-        console.log("ciaozio!");
-        $("#projectView").show();
-    });
-
     /*Temporarly not used*/
     $("#downloadCV").click(function(){
         $.fileDownload('./other/cv.pdf')
-            .done(function () { alert('File download a success!'); })
+            .done(function () { alert('File downloaded!'); })
             .fail(function () { alert('File download failed!'); });
     });
 

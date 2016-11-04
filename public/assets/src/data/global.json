@@ -1,0 +1,51 @@
+{
+
+	"projects" : [
+		{
+			"id": "rnp",
+			"title": "Repair & Protect",
+			"short_description": "Repair your home appliances",
+			"description" : "",
+			"skills": ["Node", "Sass", "Handlebars"],
+			"link":{
+				"label": "Live link",
+				"value" : "http://www.repairandprotect.co.uk"
+			}
+
+		},
+		{
+			"id": "sp",
+			"title": "Sky Protect",
+			"short_description": "A/B Testing",
+			"description" : "",
+			"skills": ["A/B Testing", "Optimizely", "jQuery", "SASS"],
+			"link":{
+				"label": "Live link",
+				"value" : "http://www.brokenboiler.com"
+			}
+		},
+		{
+			"id": "bb",
+			"title": "Broken Boiler",
+			"short_description": "Ecommerce",
+			"description" : "",
+			"skills": ["Node", "Sass", "Handlebars"],
+			"link":{
+				"label": "Live link",
+				"value" : "http://www.brokenboiler.com"
+			}
+		},
+		{
+			"id": "oc",
+			"title": "Online Claims",
+			"short_description": "Claim platform for customers",
+			"description" : "",
+			"skills": ["Websphere Ecommerce", "Less", "Ecommerce"],
+			"link":{
+				"label": "Live link",
+				"value" : "http://www.giulioambrogi.com"
+			}
+
+		}
+	]
+}
