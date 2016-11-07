@@ -1,14 +1,18 @@
 @import 'legacy/bootstrap.min';
 @import 'legacy/animate.min';
 @import 'legacy/creative';
-@import 'legacy/main';
+
 
 @import 'base/base';
 @import 'base/typography';
 @import 'base/fonts';
 @import 'base/typed';
 @import 'base/buttons';
+@import 'base/variables';
 
 
 
 @import 'components/project';
+
+
+@import 'legacy/main';

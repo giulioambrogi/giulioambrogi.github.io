@@ -89,7 +89,8 @@ gulp.task('styles', function() {
 gulp.task('webserver', function() {
   gulp.src('./')
     .pipe(webserver({
-      fallback: 'index.html'
+      fallback: 'index.html',
+      port: 7777
     }));
 });
 

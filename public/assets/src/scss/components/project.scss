@@ -2,7 +2,6 @@
 	height: 300px;
 	background:#ebebeb;
 
-	z-index:20;
 }
 
 
@@ -20,13 +19,9 @@
 			margin-right: 10px;
 		}
 
-		&.btn-link{
-			z-index: 99;
-		}
-
 		&:hover{
-			color: #3cea5b;
-			border-color: #3cea5b;
+			color: $link--primary;
+			border-color: $link--primary;
 		}
 
 	}

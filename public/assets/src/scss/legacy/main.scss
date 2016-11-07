@@ -8,7 +8,7 @@ a:hover{
 section{
 }
 #techstack{
-    background-color: #ebebeb;
+    background-color: $light-grey;
 }
 #imageDivContainer{
     background: rgba(255,255,255,0.2);
@@ -82,10 +82,10 @@ section{
     list-type: circle;
 }
 .tech{
-    color: #ff8c00;
+    color: $tech--primary;
 }
 .tech2{
-    color: #00bfff;
+    color: $tech--secondary;
 }
 .green-highliter{
     color: greenyellow;
@@ -104,13 +104,7 @@ section{
     border:5px solid #008cc9;
     border-radius: 5px;
 }
-.simple-portfolio-box{
-    height:100%;
-    background-color: #7fffd4;
-    height:230px;
-    text-align: center;
-    text-transform: uppercase;
-}
+
 .live-link{
     color: #ff8c00;
 }
