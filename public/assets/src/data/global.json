@@ -36,9 +36,9 @@
 			}
 		},
 		{
-			"id": "oc",
-			"title": "Online Claims",
-			"short_description": "Claim platform for customers",
+			"id": "uw",
+			"title": "Umberto Wetzl",
+			"short_description": "Website and custom admin interface",
 			"description" : "",
 			"skills": ["Websphere Ecommerce", "Less", "Ecommerce"],
 			"link":{

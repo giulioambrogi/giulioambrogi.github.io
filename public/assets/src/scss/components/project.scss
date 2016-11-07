@@ -1,7 +1,36 @@
 .portfolio-box{
 	height: 300px;
-	background:#ebebeb;
+	width: 95%;
+	margin: 2.5% auto;
 
+	background-size: 100% !important;
+    	background-position: center center!important;
+	
+
+
+	/* Remove default style*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    /*style*/
+	border: 0px !important;
+	-moz-box-shadow:    0px 0px 8px 3px #ccc;
+	-webkit-box-shadow: 0px 0px 8px 3px #ccc;
+			box-shadow:         0px 0px 8px 3px #ccc;
+
+
+
+}
+
+.portfolio-box:hover{
+	transition: 0.3s;
+
+	/*style*/
+	border: 0px !important;
+	-moz-box-shadow:    0px 0px 12px 10px #ccc;
+	-webkit-box-shadow: 0px 0px 12px 10px #ccc;
+			box-shadow:         0px 0px 12px 10px #ccc;
 }
 
 
