@@ -1,20 +1,18 @@
- <section class="no-padding" id="portfolio">
+ <section class="" id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <hr class="light">
-                    <h2 class="section-heading">Portfolio new </h2>
+                    <h2 class="section-heading">Portfolio</h2>
                     <hr class="primary">
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid">
-
+        <div class="container-fluid project-container">
             <div class="row no-gutter">
 
-
                     {{#each projects}}
+
                          <div class="col-lg-4 col-sm-6" >
                         <div data-toggle="modal" data-target="#proj-{{this.id}}" class="portfolio-box {{this.id}}" style="background: url(/images/portfolio/{{this.id}}.jpg);">
 
@@ -48,15 +46,23 @@
                                 <div class="modal-content myModalContent">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                        <h4 class="modal-title">{{this.title}}</h4>
+                                        <h3 class="modal-title">{{title}}</h3>
                                     </div>
                                     <div class="modal-body">
-                                        <p>{{this.description}}</p>
+                                        <p>{{description}}</p>
+                                        <div class="skills">
+                                             {{#each skills}}
+                                                <button  class="btn btn-primary">{{this}}</button>
+                                             {{/each}}
+                                        </div>
+                                        <div class="live-link">
+                                            <a class="btn btn-default" href='{{this.link.value}}' target="_blank">Live link</a>
+                                        </div>
 
                                     </div>
-                                    <div class="modal-footer">
+                                    <!--<div class="modal-footer">
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
                         </div>

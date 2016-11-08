@@ -5,7 +5,7 @@
 			"id": "rnp",
 			"title": "Repair & Protect",
 			"short_description": "Repair your home appliances",
-			"description" : "",
+			"description" : "A brochure website made of reausable SASS/Handlebars components. This website was built within D&G front-end team.",
 			"skills": ["Node", "Sass", "Handlebars"],
 			"link":{
 				"label": "Live link",
@@ -14,21 +14,10 @@
 
 		},
 		{
-			"id": "sp",
-			"title": "Sky Protect",
-			"short_description": "A/B Testing",
-			"description" : "",
-			"skills": ["A/B Testing", "Optimizely", "jQuery", "SASS"],
-			"link":{
-				"label": "Live link",
-				"value" : "http://www.brokenboiler.com"
-			}
-		},
-		{
 			"id": "bb",
 			"title": "Broken Boiler",
 			"short_description": "Ecommerce",
-			"description" : "",
+			"description" : "fff",
 			"skills": ["Node", "Sass", "Handlebars"],
 			"link":{
 				"label": "Live link",
@@ -36,16 +25,51 @@
 			}
 		},
 		{
+			"id": "sp",
+			"title": "Sky Protect",
+			"short_description": "A/B Testing",
+			"description" : "Increasing the website conversion rate via Optimizely.",
+			"skills": ["A/B Testing", "Optimizely", "jQuery", "SASS"],
+			"link":{
+				"label": "Live link",
+				"value" : "http://www.brokenboiler.com"
+			}
+		},
+		{
 			"id": "uw",
-			"title": "Umberto Wetzl",
-			"short_description": "Website and custom admin interface",
-			"description" : "",
+			"title": "Umberto Wetzl website",
+			"short_description": "Back-end & front-end",
+			"description" : "This website is a",
 			"skills": ["Websphere Ecommerce", "Less", "Ecommerce"],
 			"link":{
 				"label": "Live link",
-				"value" : "http://www.giulioambrogi.com"
+				"value" : "http://www.umbertowetzlarchitetto.it"
 			}
 
+		},
+		{
+			"id": "msc",
+			"title": "Msc project",
+			"short_description": "Mobility data analyzer",
+			"description" : "This website is xx",
+			"skills": ["Java", "Spring", "AngularJS", "bootstrap", "mongodb", "Neo4j"],
+			"link":{
+				"label": "Live link",
+				"value" : "http://"
+			}
+
+		},
+		{
+
+			"id": "wpf",
+			"title": "Remote desktop control",
+			"short_description": "WPF Windows application",
+			"description" : "With this Windows application you can control mouse, keyboard and clipboard of up to 100 computers of your network at the same time.",
+			"skills": ["WPF", "C#", "Multi-threading", "TCP and UDP"],
+			"link":{
+				"label": "Live link",
+				"value" : "http://"
+			}
 		}
 	]
 }

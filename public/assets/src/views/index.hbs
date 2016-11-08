@@ -68,16 +68,15 @@
     </header>
 
     <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+
+                <div class="about-me-container">
                     <h2 class="section-heading">About me</h2>
                     <hr class="light">
 
 
                     <p>I am comfortable with many programming languages such as <span class="tech">Javascript</span>, <span class="tech">Java</span> or <span class="tech">C#</span>, and technologies like <span class="tech">NodeJS</span>, <span class="tech">AngularJS</span> and <span class="tech">Spring</span>.</p>
 
-                    <p>I love learning new things everyday, joining tech meetups and strumming <a href="www.soundcloud.coom" target="_blank">my guitar</a>.</p>
+                    <p>I love learning new things everyday, joining tech meetups and strumming <a class="tech2" href="https://soundcloud.com/ambrulio" target="_blank">my guitar</a>.</p>
 
 
 
@@ -88,13 +87,12 @@
                     <a href="#portfolio" class="btn btn-welcome btn-xl page-scroll" style="border-radius: 4px 4px 50% 50%"><i class="fa  fa-angle-down "></i></a>
 
                 </div>
-            </div>
-        </div>
+
     </section>
 
     {{> portfolio }}
 
-    <section id="services">
+    <!--<section id="services">
 
         <div class="container">
             <div class="row">
@@ -116,13 +114,6 @@
                 </div>
 
 
-                <!--<div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-desktop wow bounceIn text-primary"></i>
-                        <h3>Desktop applications</h3>
-                        <p class="text-muted">Mainly WPF</p>
-                    </div>
-                </div>-->
 
                 <div class="col-lg-4 col-md-4 text-center">
                     <div class="service-box">
@@ -141,7 +132,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <section id="techstack">
         <div class="container">
@@ -159,60 +150,9 @@
 
     </section>
 
-    <section id="resume" class="bg-dark">
-        <aside >
-            <div class="container text-center">
-                <div class="call-to-action">
-                    <h2>Get my resume</h2>
-                    <hr>
-                    <a href="./other/Giulio-Ambrogi-Resume.pdf" target="_blank" class="btn btn-default btn-xl wow tada">Get it</a>
-                    <br><br>
-                    <h7>...or check out my <a class="linkedin-link" href="https://www.linkedin.com/in/giulio-ambrogi-b1969565" target="_blank">Linked<i class="fa fa-linkedin fa-3x wow bounceIn" data-wow-delay=".1s"></i> profile</a></h7>
-                    <!--<h2>See<i class="fa fa-eye"></i></h2>
-                    <a class="btn btn-default bnt-xl wow tada" ></a>-->
-                </div>
-            </div>
-        </aside>
-    </section>
+    {{> resume}}
 
-    <section id="contact">
-        <div class="container myContact">
-            <div class="row">
-                <div class="col-lg-12 col-lg-offset-0  text-center">
-                </div>
-            </div>
-
-            <div class="row ">
-
-
-                <div class="col-lg-4 col-lg-offset-2 text-center ">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:giulio.ambrogi@gmail.com">giulio.ambrogi@gmail.com</a></p>
-                </div>
-
-                <div class="col-lg-4 text-center ">
-                    <i class="fa fa-github fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="http://github.com/giulioambrogi" target="_blank">Github repository</a></p>
-                </div>
-
-                <!--<div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>+39-346-2245633</p>
-                </div>-->
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2 text-center ">
-                    <i class="fa fa-linkedin fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="https://www.linkedin.com/in/giulio-ambrogi-b1969565" target="_blank">LinkedIn</a></p>
-                </div>
-                <div class="col-lg-4 text-center ">
-                    <i class="fa fa-skype fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a>giulioambrogi</a></p>
-                </div>
-
-            </div>
-        </div>
-    </section>
+    {{> contacts}}
 
 
     <!-- Projects Modal -->
@@ -262,7 +202,7 @@
             <div class="modal-content myModalContent">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Umberto Wetzl Website</h4>
+
                 </div>
                 <div class="modal-body">
                     <p><a href="http://www.umbertowetzlarchitetto.it">Website</a> for Umberto Wetzl, Italian Architect from Trieste (Italy).</p>
