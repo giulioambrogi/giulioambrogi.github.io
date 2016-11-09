@@ -4,21 +4,20 @@
 		{
 			"id": "rnp",
 			"title": "Repair & Protect",
-			"short_description": "Repair your home appliances",
-			"description" : "A brochure website made of reausable SASS/Handlebars components. This website was built within D&G front-end team.",
-			"skills": ["Node", "Sass", "Handlebars"],
+			"short_description": "Domestic & General",
+			"description" : "This webiste is made of reausable SASS, JavaScript and Handlebars components. Built alongside Domestic & General front-end dev team, this website is part of the digitization process of the company.",
+			"skills": ["Node", "Express", "Sass", "Handlebars", "gulp"],
 			"link":{
 				"label": "Live link",
 				"value" : "http://www.repairandprotect.co.uk"
 			}
-
 		},
 		{
 			"id": "bb",
 			"title": "Broken Boiler",
-			"short_description": "Ecommerce",
-			"description" : "fff",
-			"skills": ["Node", "Sass", "Handlebars"],
+			"short_description": "Domestic & General",
+			"description" : "This webiste is made of reausable SASS, JavaScript and Handlebars components. Built alongside Domestic & General front-end dev team, this website is part of the digitization process of the company.",
+			"skills": ["Node", "Express", "Sass", "Handlebars", "gulp"],
 			"link":{
 				"label": "Live link",
 				"value" : "http://www.brokenboiler.com"
@@ -28,33 +27,39 @@
 			"id": "sp",
 			"title": "Sky Protect",
 			"short_description": "A/B Testing",
-			"description" : "Increasing the website conversion rate via Optimizely.",
-			"skills": ["A/B Testing", "Optimizely", "jQuery", "SASS"],
+			"description" : "Increasing the website conversion rate via Optimizely tests and collecting data with Google Analytics.",
+			"skills": ["A/B Testing", "Optimizely", "jQuery", "SASS", "Google Analytics"],
 			"link":{
 				"label": "Live link",
-				"value" : "http://www.brokenboiler.com"
+				"value" : "http://www.skyprotect.com"
 			}
 		},
 		{
 			"id": "uw",
 			"title": "Umberto Wetzl website",
 			"short_description": "Back-end & front-end",
-			"description" : "This website is a",
-			"skills": ["Websphere Ecommerce", "Less", "Ecommerce"],
+			"description" : "Umberto Wetzl, Italian Architect from Trieste (Italy). This website is a single page application built with AngularJS, it also provides a custom admin interface that allows to edit the contens, such as text fields, images, adding projects and news. The back-end was built with Spring Framework, Hibernate ORM and mySql database.",
+			"skills": ["Java 8", "Spring Framework", "mySql", "AngularJS", "Hibernate", "Tomcat 8"],
 			"link":{
 				"label": "Live link",
 				"value" : "http://www.umbertowetzlarchitetto.it"
-			}
+			},
+			"features":["<b>single page application</b> interface built with AngularJS",
+				"custom <b>admin interface</b> + Java Spring back end (no CMS) for editing contents (texts fields, images, projects and news)",
+				"<b>responsiveness</b> (desktop, smartphone and tablet)",
+				"mySql database",
+				"multi-language support"
+			]
 
 		},
 		{
 			"id": "msc",
 			"title": "Msc project",
 			"short_description": "Mobility data analyzer",
-			"description" : "This website is xx",
+			"description" : "The big growth of social networks during the last decade revolutionized the way human beings interact and led companies to introduce new business strategies. The big amount of data generated every day on the most common social platforms can be valuable for many fields of study and also for mobility. Sure enough, by processing correctly those data it's possible to extract informations about urban mobility, traffic flows and, more in general any kind of information that can help in developing new strategies.<br>The aim of this work is to develop software instruments supporting the download and the analysis of data retrieved by Twitter within the metropolitan area of Turin.<br>TweetDowloader and MobilityDataAnalzyer are the most relevant web application produced within this work: the first one is meant to download tweets 24/7 and store it into a database, the second one was made to visualize and analyze the downloaded data. In particular with MobilityDataAnalyzer the user can visualize general statistics, search data, get the positioning of the most active users and label data.<br>Those web application ara designed to be scalable, able to handle big amount of data, well structured in order to make the code more readable, editable and extensible in the future, and to display good looking and responsive interfaces. In order to fulfill those goals  the software was implemented with some of the most used frameworks and languages in enterprise environment: Spring Framework, AngularJS, Twitter Bootstrap, JavaEE, HTML 5, Javascript e CSS3.",
 			"skills": ["Java", "Spring", "AngularJS", "bootstrap", "mongodb", "Neo4j"],
 			"link":{
-				"label": "Live link",
+				"label": "Demo",
 				"value" : "http://"
 			}
 
@@ -67,7 +72,7 @@
 			"description" : "With this Windows application you can control mouse, keyboard and clipboard of up to 100 computers of your network at the same time.",
 			"skills": ["WPF", "C#", "Multi-threading", "TCP and UDP"],
 			"link":{
-				"label": "Live link",
+				"label": "GitHub link",
 				"value" : "http://"
 			}
 		}

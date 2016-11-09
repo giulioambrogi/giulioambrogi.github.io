@@ -29,7 +29,7 @@
                                     </div>
                                     <div class="cta-container">
                                          <div class="btn btn-moreinfo">Info</div>
-                                         <a class="btn" href='{{this.link.value}}' target="_blank">Live link</a>
+                                         <a class="btn" href='{{this.link.value}}' target="_blank">{{link.label}}</a>
 
                                     </div>
 
@@ -37,7 +37,6 @@
                             </div>
                          </div>
                          </div>
-
 
 
                          <div id="proj-{{this.id}}" class="modal fade" role="dialog">
@@ -49,14 +48,26 @@
                                         <h3 class="modal-title">{{title}}</h3>
                                     </div>
                                     <div class="modal-body">
-                                        <p>{{description}}</p>
+                                        <p>{{{description}}}</p>
                                         <div class="skills">
                                              {{#each skills}}
                                                 <button  class="btn btn-primary">{{this}}</button>
                                              {{/each}}
                                         </div>
                                         <div class="live-link">
-                                            <a class="btn btn-default" href='{{this.link.value}}' target="_blank">Live link</a>
+                                            <a class="btn btn-default" href='{{this.link.value}}' target="_blank">{{link.label}}</a>
+                                        </div>
+
+                                        <div class="features">
+                                             {{#if features}}
+                                                <h4>Features</h4>
+                                                <ul>
+                                                    {{#each features}}
+                                                        <li>{{{this}}}</li>
+                                                    {{/each}}
+                                                </ul>
+                                            {{/if}}
+
                                         </div>
 
                                     </div>

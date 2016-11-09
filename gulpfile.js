@@ -119,7 +119,7 @@ gulp.task('hbs', function () {
 gulp.task('watch', function() {
   gulp.watch('./public/assets/src/javascripts/**/*', ['scripts-dev']);
   gulp.watch('./public/assets/src/scss/**/*.scss', ['styles']);
-  gulp.watch('./public/assets/src/views/**/*.hbs', ['hbs']);
+  gulp.watch(['./public/assets/src/views/**/*.hbs', './public/assets/src/data/*.json'], ['hbs']);
 });
 
 gulp.task('default', ['webserver', 'watch']);
