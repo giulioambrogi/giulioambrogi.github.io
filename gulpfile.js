@@ -12,15 +12,8 @@ var fs                 = require("fs"),
     size               = require('gulp-filesize'),
     uglify             = require('gulp-uglify'),
     gutil              = require('gulp-util'),
-    svgstore           = require('gulp-svgstore'),
-    svgmin             = require('gulp-svgmin'),
-    del                = require('del'),
-    mkdirp             = require('mkdirp'),
-    runSequence        = require('run-sequence'),
     path               = require('path'),
-    cheerio            = require('gulp-cheerio'),
     $                  = require('jquery'),
-    inject             = require('gulp-inject'),
     webserver = require('gulp-webserver'),
     handlebars = require('gulp-compile-handlebars'),
     htmlmin = require('gulp-htmlmin'),
@@ -96,10 +89,10 @@ gulp.task('webserver', function() {
 
 
 gulp.task('hbs', function () {
-    var templateData = require('./public/assets/src/data/global.json'),
+    var templateData = JSON.parse(fs.readFileSync('./public/assets/src/data/global.json', 'utf8')),
 
     options = {
-        ignorePartials: true,
+        ignorePartials: false,
         partials : {
         },
         batch : ['./public/assets/src/views/partials'],
@@ -119,7 +112,8 @@ gulp.task('hbs', function () {
 gulp.task('watch', function() {
   gulp.watch('./public/assets/src/javascripts/**/*', ['scripts-dev']);
   gulp.watch('./public/assets/src/scss/**/*.scss', ['styles']);
-  gulp.watch(['./public/assets/src/views/**/*.hbs', './public/assets/src/data/*.json'], ['hbs']);
+  gulp.watch('./public/assets/src/views/**/*.hbs', ['hbs']);
+   gulp.watch('./public/assets/src/data/*.json', ['hbs']);
 });
 
 gulp.task('default', ['webserver', 'watch']);
