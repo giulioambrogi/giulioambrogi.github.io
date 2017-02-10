@@ -1,0 +1,52 @@
+/* Grid system - RWD-C */
+
+@media (min-width: 981px) {
+	.ccol1 { width: 8.333333%; }
+	.ccol2 { width: 16.666666%; }
+	.ccol3 { width: 25%; }
+	.ccol4 { width: 33.333333%; }
+	.ccol5 { width: 41.666666%; }
+	.ccol6 { width: 50%; }
+	.ccol7 { width: 58.333333%; }
+	.ccol8 { width: 66.666666%; }
+	.ccol9 { width: 75%; }
+	.ccol10 { width: 83.333333%; }
+	.ccol11 { width: 91.666666%; }
+	.ccol12 { width: 100%; }
+	.rowContainer,
+	.rowContainer > .row { padding: 10px 0; }
+	.rowContainer > .row.margin-true { padding: 0 10px; }
+	.row.margin-true > div > div { margin: 20px 10px; }
+	.row.margin-true > div > div:first-of-type { margin-top: 10px; }
+	.row.margin-true > div > div:last-of-type { margin-bottom: 10px; }
+	.cmp #contentWrapper .contentManaged{
+		display: none; 
+	}
+}
+
+@media (min-width: 960px) {
+	.levelOfCoverWidget {display:block}
+	#planAccordion{display:none}
+	.quoteGenMainContent{width:560px}
+	#MutiPlanQuoteGen .quoteGenMainContent {width: 50%; }
+	#mobileHome {
+		display: none; 
+	}
+	
+	html[lang='de'] #appliances .item {
+		width: 33.3%;
+	}
+}
+/* Sky Store */
+@media (min-width: 960px) {
+	.skyBg .rowContainer, .rowContainer > .row {
+	    padding: 0;
+	}
+	
+	.sky nav .mobileBasket,
+	
+	.sky nav ul li.mobileNumber {
+		display:none
+	}
+	
+}

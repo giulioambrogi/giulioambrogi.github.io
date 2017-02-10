@@ -1,0 +1,81 @@
+.home_hero_2016{
+	background: #1d1d1d !important;
+	background: url("hero.png") !important;
+    background-size: 100% !important;
+    background-position: 0 0 !important;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.home_hero_2016_content{
+	padding: 20px !important;
+	margin-top:100px;
+	background: rgba(0,0,0,0.3);
+
+}
+
+.home_hero_2016_content h1, .home_hero_2016_content h2{
+	padding: 0 ;
+}
+.responsiveness{
+	background-color: #009eec;
+
+}
+
+#chevron-select-a-product {
+    position: relative;
+    left: 45%;
+    top: 5px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.circleImg{
+	display:inline-block;
+	border-radius:100%;
+	width:170px;
+	height:170px;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.circleImg.foosball{
+		background: url("./foosball.jpg");
+		background-size: 300px;
+		background-position: center;
+
+}
+
+
+.circleImg.nerf{
+		background: url("./nerf.jpg");
+		background-size: 300px;
+		background-position: center;
+
+}
+
+.circleImg.jira{
+		background: url("./jira.jpg");
+		background-size: 270px;
+		background-position: center;
+
+}
+
+.circleImg.alex{
+		background: url("./alex.jpg");
+		background-size: 300px;
+		background-position: center;
+		    background-position: -79px 0;
+
+}
+
+#footerEspotBottom div.footerBottom div.footerCopy{
+	padding:10px;
+}
+
