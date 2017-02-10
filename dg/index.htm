@@ -1406,7 +1406,7 @@ $(document).ready(function(){
 						</div>
 						<div class="re_item swiper-slide swiper-slide-next" style="width: 366.667px; margin-right: 50px;">
 								<div class="re_quote">
-									<q>He has bothered me with loads of million dollar questions about network issues, URLS and passowods. I'm glad he's leaving to be honest.</q>
+									<q>He has bothered me with loads of million dollar questions about network issues, URLS and passowords. I'm glad he's leaving to be honest.</q>
 								</div>
 								<div class="triangle-down"></div>
 								<p class="customerQuoteCredit"><span class="customerQuoteCreditBold">Richard,</span> SW194JS</p>
@@ -2071,9 +2071,22 @@ function(a){return function(){setTimeout(a,1)}}(b[d]))},50)}})(window);</script>
 				        scrollTop: $(".repairServiceSection:first-child").offset().top
 				    }, 1000);
 				});
+				$("#dontforget").fadeIn(800);
+				$("#dontforget .close").click(function(){
+					$("#dontforget").fadeOut(500);
+				})
 		});
 	</script>
 
 <!-- END TopCategoriesDisplay.jsp -->		
 
-<div class="ajaxLoader"></div><div class="underlay"></div><iframe src="./DGsite_files/fs.storageframe.html" id="_acsTransportFrame" class="ACS_" title="ForeSee Storage Frame" _fsrb="true" style="display: none;"></iframe></body></html>
+<div class="ajaxLoader"></div><div class="underlay"></div><iframe src="./DGsite_files/fs.storageframe.html" id="_acsTransportFrame" class="ACS_" title="ForeSee Storage Frame" _fsrb="true" style="display: none;"></iframe>
+
+
+<div id="dontforget" style="display: none">
+
+Hei! Don't forget to try all the links across the whole page ;-)
+<span class="close">X</span>
+</div>
+
+</body></html>
