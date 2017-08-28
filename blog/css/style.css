@@ -124,7 +124,7 @@ body,
 }
 body {
   background: #eee;
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px Verdana, Geneva, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
@@ -678,7 +678,7 @@ a.article-title:hover {
   display: inline-block;
   line-height: 1em;
   padding: 6px 15px;
-  border-radius: 15px;
+  border-radius: 0px;
   background: #eee;
   color: #999;
   text-shadow: 0 1px #fff;
