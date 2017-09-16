@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>What is this in JavaScript | background-color:red</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="JavaScript may look an easy language for anyone with a Object Oriented Programming background, by the way some of its features are being totally misunderstood due to the fact that it was built followi">
+<meta name="keywords" content="JavaScript,this,front-end,JS">
+<meta property="og:type" content="article">
+<meta property="og:title" content="What is this in JavaScript">
+<meta property="og:url" content="www.giulioambrogi.com/blog/2017/07/01/what-is-this-javascript/index.html">
+<meta property="og:site_name" content="background-color:red">
+<meta property="og:description" content="JavaScript may look an easy language for anyone with a Object Oriented Programming background, by the way some of its features are being totally misunderstood due to the fact that it was built followi">
+<meta property="og:locale" content="english">
+<meta property="og:updated_time" content="2017-09-16T16:59:09.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="What is this in JavaScript">
+<meta name="twitter:description" content="JavaScript may look an easy language for anyone with a Object Oriented Programming background, by the way some of its features are being totally misunderstood due to the fact that it was built followi">
+  
+    <link rel="alternate" href="/atom.xml" title="background-color:red" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/blog/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <div style="color:#fff">
+        <h1 id="title">
+            <span id="title-1">background-color:</span>
+            <span id="title-square">&nbsp;</span>
+            <span id="title-2"> red</span><span id="title-3">;</span>            
+        </h1>
+      </div>
+      <!--<h1 id="logo-wrap">
+        <a href="/blog/" id="logo">background-color:red</a>
+      </h1>
+      -->
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/blog/">Home</a>
+        
+          <a class="main-nav-link" href="/blog/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/blog/about">About</a>
+        
+          <a class="main-nav-link" href="http://www.giulioambrogi.com">Portfolio</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        <!--
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        -->
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="www.giulioambrogi.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-what-is-this-javascript" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/blog/blog/2017/07/01/what-is-this-javascript/" class="article-date">
+  <time datetime="2017-07-01T17:51:40.000Z" itemprop="datePublished">2017-07-01</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      What is this in JavaScript
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>JavaScript may look an easy language for anyone with a Object Oriented Programming background, by the way some of its features are being totally misunderstood due to the fact that it was built following the function pattern, rather than the OOP pattern.<br><a id="more"></a><br>One of the most misunderstood keyword is <code>this</code>. What is it anyway?</p>
+<p>In a common Object Oriented Programming language such as C#, <code>this</code> keyword is a reference to the current instance of the class. See the example below.</p>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="comment">//C# example</span></div><div class="line"></div><div class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Car</span>&#123;</div><div class="line"></div><div class="line">	<span class="keyword">private</span> <span class="keyword">string</span> brand = <span class="string">""</span>;</div><div class="line"></div><div class="line">	<span class="function"><span class="keyword">public</span> <span class="title">Car</span>(<span class="params"><span class="keyword">string</span> brand</span>)</span>&#123;</div><div class="line">		<span class="keyword">this</span>.brand = brand;</div><div class="line">	&#125;</div><div class="line"></div><div class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">string</span> <span class="title">GetBrand</span>(<span class="params"></span>)</span>&#123;</div><div class="line">		<span class="keyword">return</span> <span class="keyword">this</span>.brand;</div><div class="line">	&#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">//... main </span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span>(<span class="params"><span class="keyword">string</span>[] args</span>)</span>&#123;</div><div class="line">	</div><div class="line">	Car car1 = <span class="keyword">new</span> Car(<span class="string">"Ford"</span>);</div><div class="line"></div><div class="line">	Car car2 = <span class="keyword">new</span> Car(<span class="string">"BMW"</span>);</div><div class="line"></div><div class="line">	car1.GetBrand(); <span class="comment">//Ford</span></div><div class="line">	</div><div class="line">	car2.GetBrand(); <span class="comment">//BMW</span></div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>Pretty intuitive so far.<br>In <strong>JavaScript</strong> the story is highly different: <code>this</code> is a reference to the <strong>context where a function have been called at runtime</strong>. I know, this definition my look blurry at this stage but it will be much clearer as we go through some examples.</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="keyword">var</span> name = <span class="string">'Holly'</span>;</div><div class="line"></div><div class="line"><span class="keyword">var</span> getName = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">	<span class="keyword">return</span> <span class="keyword">this</span>.name;</div><div class="line">&#125;;</div><div class="line"></div><div class="line"><span class="keyword">var</span> person = &#123; </div><div class="line">	name: <span class="string">'Benji'</span>, </div><div class="line">	getName: getName</div><div class="line">&#125;;</div><div class="line"></div><div class="line">person.getName();  <span class="comment">//Benji</span></div><div class="line"></div><div class="line">getName();<span class="comment">//Holly</span></div></pre></td></tr></table></figure>
+<p>As you can see, even if both <code>person.getName</code> and <code>getName</code> reference the same function, the value of <code>this</code> is not the same, because it depends on the context in which <code>getName()</code> is being called: the first time it’s being called on top of person context, on the other hand - the second time - it’s being called on the global context.</p>
+<p><em>So remember, in JavaScript, the value of <code>this</code> is a matter of <strong>context</strong> - AKA where the function is being called from.</em></p>
+<h2 id="Different-contexts"><a href="#Different-contexts" class="headerlink" title="Different contexts"></a>Different contexts</h2><p>Now let’s examine how <code>this</code> behaves when a function is being called in different contexts: the global scope and the local scope.</p>
+<p>When called on the <strong>global scope</strong>  <code>this</code> points the global object, that is <code>window</code> in browsers or <code>globals</code> in Node.</p>
+<p>When called on the <strong>local scope</strong> its behaviour may vary depending on where it is used:</p>
+<ul>
+<li><p>inside an <strong>object’s method</strong>, it refers to the object the method is called on:</p>
+  <figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> person = &#123;</div><div class="line">	name: <span class="string">"Manuel"</span>,</div><div class="line">	printName: <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">		<span class="built_in">console</span>.log(<span class="keyword">this</span>.name);</div><div class="line">	&#125;</div><div class="line">&#125;;</div><div class="line"></div><div class="line">message.printName();   <span class="comment">// output: Manuel</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>in a <strong>standalone function call</strong>, it points the global object:</p>
+  <figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">sayHello</span>(<span class="params"></span>)</span>&#123;</div><div class="line">	<span class="built_in">console</span>.log(<span class="keyword">this</span>);</div><div class="line">&#125;</div><div class="line"></div><div class="line">sayHello(); <span class="comment">//output: global object (window)</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>in a <strong>constructor function</strong>, the <code>new</code> keyword  binds the <code>this</code> to the newly constructed object:</p>
+  <figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">Wrapper</span>(<span class="params">value</span>)</span>&#123;</div><div class="line">  <span class="keyword">this</span>.value = value;</div><div class="line">  <span class="keyword">this</span>.printValue = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">	<span class="built_in">console</span>.log(<span class="keyword">this</span>.value);</div><div class="line">  &#125;;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">var</span> w1 = <span class="keyword">new</span> Wrapper(<span class="string">"One"</span>);</div><div class="line">w1.printValue(); <span class="comment">//"One"</span></div><div class="line"></div><div class="line"><span class="keyword">var</span> w2 = <span class="keyword">new</span> Wrapper(<span class="string">"Two"</span>);</div><div class="line">w2.printValue(); <span class="comment">//"Two"</span></div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="Controlling-this"><a href="#Controlling-this" class="headerlink" title="Controlling this"></a>Controlling <code>this</code></h2><p>This is not over yet, JavaScript provides a set of methods that let us control and change <code>this</code> value - <code>bind</code>, <code>call</code> and  <code>apply</code> -  and I am going to talk about them in the next blog post.</p>
+<p>Hope you enjoyed!</p>
+<hr>
+<h2 id="Refs"><a href="#Refs" class="headerlink" title="Refs"></a>Refs</h2><ul>
+<li>Kyle Simpson,You Don’t Know JS: this &amp; Object Prototypes.     <a href="https://github.com/getify/You-Dont-Know-JS/tree/master/this%20%26%20object%20prototypes" target="_blank" rel="external">https://github.com/getify/You-Dont-Know-JS/tree/master/this%20%26%20object%20prototypes</a></li>
+<li>Mozilla Developer Network. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this" target="_blank" rel="external">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this</a></li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="www.giulioambrogi.com/blog/2017/07/01/what-is-this-javascript/" data-id="cj6v8jvty0004ava44idoe0b9" class="article-share-link">Share</a>
+      
+        <a href="www.giulioambrogi.com/blog/2017/07/01/what-is-this-javascript/#disqus_thread" class="article-comment-link">Comments</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/JS/">JS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/JavaScript/">JavaScript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/front-end/">front-end</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/this/">this</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/blog/blog/2017/06/27/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/JS/">JS</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/JavaScript/">JavaScript</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/front-end/">front-end</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/this/">this</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/blog/blog/2017/07/01/what-is-this-javascript/">What is this in JavaScript</a>
+          </li>
+        
+          <li>
+            <a href="/blog/blog/2017/06/27/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 Giulio Ambrogi<br>
+      <a href="/">www.giulioambrogi.com</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/blog/" class="mobile-nav-link">Home</a>
+  
+    <a href="/blog/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/blog/about" class="mobile-nav-link">About</a>
+  
+    <a href="http://www.giulioambrogi.com" class="mobile-nav-link">Portfolio</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'giulioambrogi';
+  
+  var disqus_url = 'www.giulioambrogi.com/blog/2017/07/01/what-is-this-javascript/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css">
+  <script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js"></script>
+
+  </div>
+</body>
+</html>
