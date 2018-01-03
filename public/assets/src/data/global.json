@@ -5,8 +5,8 @@
 			"id": "valueimpact",
 			"title": "Valueimpact.eu",
 			"short_description": "Valueimpact, Corporate & Development Consulting.",
-			"description" : "<p>Website for Valueimpact.eu.</p>",
-			"skills": ["ES6", "Jekyll", "SEO", "Sass"],
+			"description" : "<p>Designed and developed for Valueimpact, a worlwide financial consulting firm.</p><p>Top score on <strong><a href=\"https://www.webpagetest.org/\" target=\"_blank\">Web Page Test</a></strong>.</p><p><img width=\"100%\" src=\"/img/portfolio/vi-webpagetest.png\" /><p>SEO Optimised step by step using tools such as:<ul><li><a href=\"https://www.seotesteronline.com/\">SEO tester online</a></li><li><a href=\"https://seositecheckup.com/\">SEO Site Checkup</a></li></ul></p>",
+			"skills": ["SASS","ES6", "Jekyll", "SEO", "Sass", "Web design", "Imagemagick"],
 			"link":{
 				"label": "Live link",
 				"value" : "https://www.valueimpact.eu"
@@ -14,7 +14,9 @@
 			"features":[
 				"Page-load optimised",
 				"SEO optimised",
-				"Multi-language"
+				"Multi-language",
+				"Responsive",
+				"Assets optimisation (Imagemagick and BBC Imager)"
 			]
 		},
 
@@ -37,7 +39,7 @@
 
 		},
 
-		
+
 		{
 			"id": "rnp",
 			"title": "Repair & Protect",
