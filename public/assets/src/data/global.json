@@ -1,6 +1,44 @@
 {
     "projects" : [
 		{
+
+			"id": "valueimpact",
+			"title": "Valueimpact.eu",
+			"short_description": "Valueimpact, Corporate & Development Consulting.",
+			"description" : "<p>Website for Valueimpact.eu.</p>",
+			"skills": ["ES6", "Jekyll", "SEO", "Sass"],
+			"link":{
+				"label": "Live link",
+				"value" : "https://www.valueimpact.eu"
+			},
+			"features":[
+				"Page-load optimised",
+				"SEO optimised",
+				"Multi-language"
+			]
+		},
+
+		{
+			"id": "uw",
+			"title": "Umberto Wetzl website",
+			"short_description": "Back-end & front-end",
+			"description" : "<p>Umberto Wetzl, architect based in Trieste (Italy). This website is a single page application built with AngularJS, it also provides a custom admin interface that allows to edit the contens, such as text fields, images, adding projects and news. The back-end was built with Spring Framework, Hibernate ORM and mySql database.</p>",
+			"skills": ["Java 8", "Spring Framework", "mySql", "AngularJS", "Hibernate", "ORM", "Tomcat 8"],
+			"link":{
+				"label": "Live link",
+				"value" : "http://www.umbertowetzlarchitetto.it"
+			},
+			"features":["<b>single page application</b> interface built with AngularJS",
+				"custom <b>admin interface</b> + Java Spring back end (no CMS) for editing contents (texts fields, images, projects and news)",
+				"<b>responsiveness</b> (desktop, smartphone and tablet)",
+				"mySql database",
+				"multi-language support"
+			]
+
+		},
+
+		
+		{
 			"id": "rnp",
 			"title": "Repair & Protect",
 			"short_description": "Domestic & General",
@@ -33,24 +71,7 @@
 				"value" : "http://www.skyprotect.com"
 			}
 		},
-		{
-			"id": "uw",
-			"title": "Umberto Wetzl website",
-			"short_description": "Back-end & front-end",
-			"description" : "<p>Umberto Wetzl, architect based in Trieste (Italy). This website is a single page application built with AngularJS, it also provides a custom admin interface that allows to edit the contens, such as text fields, images, adding projects and news. The back-end was built with Spring Framework, Hibernate ORM and mySql database.</p>",
-			"skills": ["Java 8", "Spring Framework", "mySql", "AngularJS", "Hibernate", "ORM", "Tomcat 8"],
-			"link":{
-				"label": "Live link",
-				"value" : "http://www.umbertowetzlarchitetto.it"
-			},
-			"features":["<b>single page application</b> interface built with AngularJS",
-				"custom <b>admin interface</b> + Java Spring back end (no CMS) for editing contents (texts fields, images, projects and news)",
-				"<b>responsiveness</b> (desktop, smartphone and tablet)",
-				"mySql database",
-				"multi-language support"
-			]
-
-		},
+		
 		{
 			"id": "msc",
 			"title": "Msc project",
@@ -62,23 +83,6 @@
 				"value" : "https://www.youtube.com/watch?v=njRf6eN0KIw"
 			}
 
-		},
-		{
-
-			"id": "wpf",
-			"title": "Remote desktop control",
-			"short_description": "WPF Windows application",
-			"description" : "<p>With this Windows application you can control mouse, keyboard and clipboard of up to 100 computers of your network at the same time.<br>This app has been developed as a project during my MSc at Polytechnic University of Turin (Turin, Italy).</p>",
-			"skills": ["WPF", "C#", ".NET 4.5", "Multi-threading", "TCP and UDP"],
-			"link":{
-				"label": "GitHub",
-				"value" : "http://www.github.com/giulioambrogi/remote-desktop"
-			},
-			"features":[
-				"multi-threaded",
-				"control up to 100 computers at the same time",
-				".NET 4.5"
-			]
 		}
 	]
 }
