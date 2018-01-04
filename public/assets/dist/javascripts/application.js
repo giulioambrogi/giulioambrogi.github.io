@@ -29,7 +29,7 @@ module.exports = (function(){
         callback: function(){
           $(".header-content p.hi").next(".typed-cursor").hide();
              $(".header-content p.iam").typed({
-              strings: ["I am Giulio, web developer based in London."],
+              strings: ["I am Giulio, software engineer based in London."],
               typeSpeed: typed_speed,
               callback: function(){
                 $('.header-content .btn.btn-welcome').toggleClass('opacity-hidden');

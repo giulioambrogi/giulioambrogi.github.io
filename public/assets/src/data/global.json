@@ -4,8 +4,8 @@
 
 			"id": "valueimpact",
 			"title": "Valueimpact.eu",
-			"short_description": "Valueimpact, Corporate & Development Consulting.",
-			"description" : "<p>Designed and developed for Valueimpact, a worlwide financial consulting firm.</p><p>Top score on <strong><a href=\"https://www.webpagetest.org/\" target=\"_blank\">Web Page Test</a></strong>.</p><p><img width=\"100%\" src=\"/img/portfolio/vi-webpagetest.png\" /><p>SEO Optimised step by step using tools such as:<ul><li><a href=\"https://www.seotesteronline.com/\">SEO tester online</a></li><li><a href=\"https://seositecheckup.com/\">SEO Site Checkup</a></li></ul></p>",
+			"short_description": "Corporate & Development Consulting",
+			"description" : "<p>Freelance project. Designed and developed for Valueimpact, a worlwide financial consulting firm.</p><p>Top score on <strong><a href=\"https://www.webpagetest.org/\" target=\"_blank\">Web Page Test</a></strong>.</p><p><img width=\"100%\" src=\"/img/portfolio/vi-webpagetest.png\" /><p>SEO Optimised step by step using tools such as:<ul><li><a href=\"https://www.seotesteronline.com/\">SEO tester online</a></li><li><a href=\"https://seositecheckup.com/\">SEO Site Checkup</a></li></ul></p>",
 			"skills": ["SASS","ES6", "Jekyll", "SEO", "Sass", "Web design", "Imagemagick"],
 			"link":{
 				"label": "Live link",
@@ -23,8 +23,8 @@
 		{
 			"id": "uw",
 			"title": "Umberto Wetzl website",
-			"short_description": "Back-end & front-end",
-			"description" : "<p>Umberto Wetzl, architect based in Trieste (Italy). This website is a single page application built with AngularJS, it also provides a custom admin interface that allows to edit the contens, such as text fields, images, adding projects and news. The back-end was built with Spring Framework, Hibernate ORM and mySql database.</p>",
+			"short_description": "Full stack web app development.",
+			"description" : "<p>Umberto Wetzl, architect based in Trieste (Italy). Freelance project.<br>This website is a single page application built with AngularJS, it also provides a custom admin interface that allows to edit the contents, such as text fields, images, adding projects and news. The back-end was built with Spring Framework, Hibernate ORM and mySql database.</p>",
 			"skills": ["Java 8", "Spring Framework", "mySql", "AngularJS", "Hibernate", "ORM", "Tomcat 8"],
 			"link":{
 				"label": "Live link",
