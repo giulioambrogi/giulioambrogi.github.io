@@ -5,7 +5,7 @@
 			"id": "valueimpact",
 			"title": "Valueimpact.eu",
 			"short_description": "Corporate & Development Consulting",
-			"description" : "<p>Freelance project. Designed and developed for Valueimpact, a worlwide financial consulting firm.</p><p>Top score on <strong><a href=\"https://www.webpagetest.org/\" target=\"_blank\">Web Page Test</a></strong>.</p><p><img width=\"100%\" src=\"/img/portfolio/vi-webpagetest.png\" /><p>SEO Optimised step by step using tools such as:<ul><li><a href=\"https://www.seotesteronline.com/\">SEO tester online</a></li><li><a href=\"https://seositecheckup.com/\">SEO Site Checkup</a></li></ul></p>",
+			"description" : "<p>Freelance project. Designed and developed for Valueimpact, a worlwide financial consulting firm.</p><p>Page load performance optimised using <strong><a href=\"https://www.webpagetest.org/\" target=\"_blank\">Web Page Test</a></strong>:</p><p><img width=\"100%\" src=\"/img/portfolio/vi-webpagetest.png\" /><p>SEO Optimised step by step using tools such as:<ul><li><a href=\"https://www.seotesteronline.com/\">SEO tester online</a></li><li><a href=\"https://seositecheckup.com/\">SEO Site Checkup</a></li></ul></p>",
 			"skills": ["SASS","ES6", "Jekyll", "SEO", "Sass", "Web design", "Imagemagick"],
 			"link":{
 				"label": "Live link",
