@@ -75,14 +75,14 @@
 		},
 		
 		{
-			"id": "msc",
-			"title": "Msc project",
-			"short_description": "Mobility data analyzer",
-			"description" : "<p>Web app for downloading and processing tweets in Turin's area (Italy) with the aim of studying citizens' mobility.</p><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/njRf6eN0KIw' autoplay='false' allowfullscreen='true'></iframe></div><h4>Abstract</h4><p>The big growth of social networks during the last decade revolutionized the way human beings interact and led companies to introduce new business strategies. The big amount of data generated every day on the most common social platforms can be valuable for many fields of study and also for mobility. Sure enough, by processing correctly those data it's possible to extract informations about urban mobility, traffic flows and, more in general any kind of information that can help in developing new strategies.<br>The aim of this work is to develop software instruments supporting the download and the analysis of data retrieved by Twitter within the metropolitan area of Turin.<br>TweetDowloader and MobilityDataAnalzyer are the most relevant web application produced within this work: the first one is meant to download tweets 24/7 and store it into a database, the second one was made to visualize and analyze the downloaded data. In particular with MobilityDataAnalyzer the user can visualize general statistics, search data, get the positioning of the most active users and label data.<br>Those web application ara designed to be scalable, able to handle big amount of data, well structured in order to make the code more readable, editable and extensible in the future, and to display good looking and responsive interfaces. In order to fulfill those goals  the software was implemented with some of the most used frameworks and languages in enterprise environment: Spring Framework, AngularJS, Twitter Bootstrap, JavaEE, HTML 5, Javascript e CSS3.</p>",
-			"skills": ["Java 8", "Spring", "AngularJS", "bootstrap", "mongodb", "Neo4j"],
+			"id": "bdd",
+			"title": "BDD Boilerplate Generator",
+			"short_description": "Focus on the testplan, generate the code",
+			"description":"Define all the test cases you want to address and generate the tests boilerplate in a second.<br>Currently supporting Jest, Mocha and Jasmine.<br><br>",
+			"skills": ["bdd", "testing", "javascript", "tdd"],
 			"link":{
-				"label": "Demo",
-				"value" : "https://www.youtube.com/watch?v=njRf6eN0KIw"
+				"label": "Live link",
+				"value" : "/bdd-boilerplate-generator/"
 			}
 
 		}
