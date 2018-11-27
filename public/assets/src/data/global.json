@@ -76,13 +76,13 @@
 		
 		{
 			"id": "bdd",
-			"title": "BDD Boilerplate Generator",
+			"title": "JS Test Generator",
 			"short_description": "Focus on the testplan, generate the code",
 			"description":"Define all the test cases you want to address and generate the tests boilerplate in a second.<br>Currently supporting Jest, Mocha and Jasmine.<br><br>",
-			"skills": ["bdd", "testing", "javascript", "tdd"],
+			"skills": ["testing", "javascript", "tdd", "bdd", "jest", "mocha", "jasmine"],
 			"link":{
 				"label": "Live link",
-				"value" : "/bdd-boilerplate-generator/"
+				"value" : "http://jstestgenerator.com"
 			}
 
 		}

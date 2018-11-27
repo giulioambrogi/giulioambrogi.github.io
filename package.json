@@ -79,6 +79,9 @@
     "parameterize": "0.0.7",
     "winston": "^0.8.3"
   },
+  "scripts":{
+    "start": "gulp"
+  },
   "author": "",
   "license": "ISC"
 }
