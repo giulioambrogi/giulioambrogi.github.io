@@ -1,1 +1,0 @@
-header .cornice{border:12px solid rgba(25,255,255,.5);position:absolute;top:60px;right:10px;left:10px;bottom:10px;margin:auto;animation:a 2s}@keyframes a{0%{border:12px solid rgba(25,255,255,0)}to{border:12px solid rgba(25,255,255,.5)}}
